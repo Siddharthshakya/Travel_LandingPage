@@ -1,0 +1,35 @@
+.partners-section {
+  background-color: #f3f7ff; /* light blue */
+  padding: 60px 0;
+}
+
+.partners-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.partner-card {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.partner-card img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}

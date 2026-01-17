@@ -1,0 +1,100 @@
+.testimonials {
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.test-left {
+  flex: 1;
+}
+
+.test-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5e6282;
+}
+
+.test-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #181e4b;
+  margin: 15px 0 30px;
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #e5e5e5;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #181e4b;
+}
+
+/* RIGHT */
+.test-right {
+  flex: 1;
+  position: relative;
+}
+
+.test-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+  max-width: 420px;
+  position: relative;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  border: 4px solid #fff;
+}
+
+.test-text {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #5e6282;
+  line-height: 1.7;
+}
+
+.test-name {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #181e4b;
+}
+
+.test-location {
+  font-size: 14px;
+  color: #5e6282;
+}
+
+/* Secondary text below card */
+.test-secondary {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.test-secondary h4 {
+  font-size: 16px;
+  color: #181e4b;
+}
+
+.test-secondary span {
+  font-size: 14px;
+  color: #5e6282;
+}
